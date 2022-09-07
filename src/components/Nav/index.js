@@ -16,14 +16,22 @@ function Nav() {
   return (
     <header data-testid="header" className="flex-row px-1">
       <h2>
+<<<<<<< HEAD
         <a href="/">
+=======
+        <a data-testid="link" href="/">
+>>>>>>> feature/react-tests
           <span role="img" aria-label="camera"> 📸</span> Oh Snap!
         </a>
       </h2>
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
+<<<<<<< HEAD
             <a href="#about" onClick={() => handleClick()}>
+=======
+            <a data-testid="about" href="#about" onClick={() => handleClick()}>
+>>>>>>> feature/react-tests
               About me
             </a>
           </li>
